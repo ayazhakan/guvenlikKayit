@@ -12,7 +12,7 @@ import java.util.Date;
 @Getter
 @Setter
 @Entity
-@Table(name = "users")
+@Table(name = "records")
 public class RecordModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,5 +22,5 @@ public class RecordModel {
     String donusSaati;
     String gidilenYer;
     String aracKullanicisi;
-    Date tarih;
+    String tarih;
 }
